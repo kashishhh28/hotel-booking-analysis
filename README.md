@@ -5,24 +5,26 @@ to understand why customers cancel and how hotels can
 improve revenue.
 
 ## Tools Used
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+- Python, Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn (Random Forest, GridSearchCV)
 
-## Overview
-- Cleaned the data and handled missing values
-- Analyzed cancellation patterns
-- Found peak booking seasons
-- Identified revenue loss due to cancellations
-- Explored customer behavior
+## Goals
+- Identify factors that affect cancellations
+- Understand booking trends over time
+- Analyze which countries book the most
+- Find peak booking seasons
+- Predict cancellations using ML
 
-## 🔍 Key Findings
-- City Hotel cancels 2x more than Resort Hotel
-- 14.2 million revenue lost due to cancellations
-- August has highest bookings
+## Key Findings
+- City Hotel has 2x more cancellations than Resort Hotel
+- Total revenue lost due to cancellations = 14.2 million
+- Longer lead time = higher cancellation risk (68% at 365+ days)
 - Repeat guests cancel 4x less than new guests
-- Longer lead time = more cancellations
+- August is peak month with highest bookings
+- More special requests = fewer cancellations
+- Non-refundable bookings surprisingly cancel 99.4% of the time
+
 
 ## 📊 Dataset
 - Source: Kaggle — Hotel Booking Demand
